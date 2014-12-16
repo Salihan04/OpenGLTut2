@@ -40,7 +40,7 @@ void createVertexBuffer() {
 int main(int argc, char **argv) {
 
 	glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_DOUBLE | GL_RGB);
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
 	glutInitWindowPosition(300, 300);
 	glutInitWindowSize(400, 300);
 	glutCreateWindow("Tutorial 02 - Hello Dot");
